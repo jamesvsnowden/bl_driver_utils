@@ -5,7 +5,7 @@ import string
 import itertools
 import bpy
 
-DEBUG = 'DEBUG_MODE' is sys.argv
+DEBUG = 'DEBUG_MODE' in sys.argv
 
 def ASSERT_DRIVER_RESOLVABLE(fn: str,
                              id: bpy.types.ID,
